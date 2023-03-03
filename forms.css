@@ -1,0 +1,84 @@
+.add-packing-form {
+    padding: 3rem;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    background-color: #fefefe;
+    margin: 8% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+    height: 80%;
+}
+
+label {
+    margin-left: 30%;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+h1 {
+    margin-left: 33%;
+    margin-bottom: 2rem;
+}
+
+.input-fields {
+    border: solid 0.1rem #35A5E4;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    height: 2.5rem;
+    width: 20rem;
+    margin-top: 0.5rem; 
+    margin-left: 25%;
+    margin-bottom: 1rem;
+    font-size: large;
+    padding-left: 1rem;
+}
+
+.submit-form {
+    
+    background-color:#0298cf !important;
+    color: white;
+    border-radius: 4px;
+    border-color: none;
+    
+    outline-style: hidden;
+    position: inherit;
+    padding-left:30px !important;
+    padding-right:30px !important;
+
+                          
+}
+
+.back-button {
+    background-color:grey !important;
+    color: white;
+    border-radius: 4px;
+    border-color: none;
+    
+    outline-style: hidden;
+    outline-color: none !important;
+    position: inherit;
+    margin-left: 28%;
+    padding-left:50px !important;
+    padding-right:50px !important;
+}
+
+.submit-form:hover {
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.return-to-packing {
+    margin-left: 42%;
+}
+
+.return-to-packing {
+    color: black;
+}
+
+.return-to-packing:hover { 
+    color: #35A5E4;
+    cursor: pointer;
+}
